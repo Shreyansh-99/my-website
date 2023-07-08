@@ -1,0 +1,203 @@
+body, html {
+  border: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.page-1 {
+  height: 100vh;
+  background-color: #E1EFED;
+}
+
+.cloud-1 {
+
+  position: absolute;
+  top: 80px;
+  left: 800px;
+}
+
+/*.cloud-2 {
+  height: 400px;
+  width: auto;
+  position: absolute;
+
+
+  z-index: 1;
+}*/
+.mountain{
+  height: 250px;
+  width: 100%;
+  position: absolute;
+  top: 495px;
+
+
+  z-index: 2;
+  object-fit: none;
+}
+.page-1 h1{
+  font-family: 'Sacramento', cursive;
+  margin-top: 0;
+  display: inline;
+  position: absolute;
+  color: #545454;
+  font-size: 109px;
+  top: 175px;
+  left: 100px;
+
+}
+.page-1 h2 {
+  font-family: 'Poiret One', cursive;
+  margin-top: 0;
+  position: absolute;
+  display: inline;
+  color:#000;
+  font-size: 40.8px;
+  top: 340px;
+  left: 194.5px;
+}
+@media (max-width: 686px){
+  .cloud1{
+    display: none;
+  }
+  .page-1 h1{
+    top: 50px;
+    left: 50px;
+
+  }
+  .page-1 h2{
+   top: 375px;
+   left: 100px;font-size: 30.8px;
+
+  }
+  .mountain{
+    height: 250px;
+    width: 686px;
+    object-fit: cover;
+    object-position: 25% 35%;
+  }
+  .page-1 h1{
+    margin-top: 80px;
+    font-size: 80px;
+}#skills-2{
+  padding-top: 300px;
+}
+
+}
+#skills{
+  height: 100vh;
+  background-color: #E1EFED;
+}
+.container h1{
+  font-family: 'Poiret One', cursive;
+  font-size: 66px;
+  color: #545454;
+  margin-top: 50px;
+
+}
+.profile{
+  border-radius: 50%;
+margin-top: 50px;
+}
+.container p{
+  font-family: 'Poiret One', cursive;
+  font-size: 26.8px;margin-top: 50px;
+}
+#skills-2{
+  height: 100vh;
+  background-color: #E1EFED;
+}
+.page-3 h1{
+  font-family: 'Poiret One', cursive;
+  font-size: 66px;
+  color: #545454;
+
+  text-align: center;
+}
+.skills-img{
+
+  display: inline;
+  margin-top: 125px;
+  float: left;
+  margin-left: 250px;
+}
+.row h2{
+   display: inline-block;
+   font-family: 'Poiret One', cursive;
+   font-size: 29.6px;
+
+
+}
+.row p{
+
+  font-family: 'Poiret One', cursive;
+  font-size: 16.1px;
+  width: 500px;
+
+}
+.denk{
+  clear: left;
+
+}
+.first-sentence{
+  margin-top: 20px;
+
+}
+#skills-my{
+  margin-top: 0;
+}
+.imag1-skills{
+  margin-top: 80px;
+}
+.imag2-skills{
+  margin-top: 100px;
+}
+#page-4{
+  height: 60vh;
+  background-color: #E1EFED;
+}
+#page-4 h1{
+  font-family: 'Poiret One', cursive;
+  font-size: 58px;
+  padding-top: 100px;
+  text-align: center;
+}
+.btn{
+  margin-top: 80px;
+}
+.foot{
+  height: 20vh;
+  background-color: #94AE89;
+}
+.things{
+  display: flex;
+}
+.things>h2{
+  font-family: 'Poiret One', cursive;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 60px;
+}
+.linkedin{
+  font-family: 'Poiret One', cursive;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 60px;
+  width: 33%;
+
+}
+
+.Twitter{
+    width: 33%;
+}
+a:link, a:visited {
+font-family: 'Poiret One', cursive;
+  color: black;
+padding-top: 60px;
+  width:33%;
+  text-align: center;
+  text-decoration: none;
+
+  font-size:24px;
+}
